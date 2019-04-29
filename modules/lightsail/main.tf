@@ -20,7 +20,7 @@ resource "aws_lightsail_static_ip_attachment" "this" {
 /*
 resource "aws_route53_record" "tf-lightsail-test" {
   zone_id = "${var.zone_id}"
-  name    = "lightsail.dshimizu.jp"
+  name    = "lightsail.example.jp"
   type    = "A"
   ttl     = "300"
   records = ["${aws_lightsail_static_ip.this.ip_address}"]
